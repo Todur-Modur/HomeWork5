@@ -1,0 +1,45 @@
+.main-board{
+    display: inline-block;
+    border: 5px solid black;
+}
+.board {
+  display: inline-block;
+  border: 1px solid black;
+}
+.row {
+  display: flex;
+}
+.square {
+  width: 100px;
+  height: 100px;
+}
+.white {
+  background-color: white;
+}
+.black {
+  background-color: black;
+}
+.text{
+    font-size: 30px;
+}
+.letters{
+    display: flex;
+    margin-left: 70px;
+    text-align: center;
+    letter-spacing: 80px;
+}
+.numbers{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -1000px;
+    padding-top: 135px;
+    padding-left: 10px;
+}
+.numbers-space{
+padding-top: 67px;
+}
+.letters-down{
+    display: flex;
+    margin-left: 70px;
+    letter-spacing: 80px;
+}
